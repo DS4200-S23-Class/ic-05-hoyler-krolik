@@ -29,13 +29,14 @@
 // console.log(ans);
 
 // button function
+let numClicks = 0;
 function buttonClicked(){
-    console.log("Button was clicked!");
 
-    let newText = "Button was clicked";
+    numClicks = numClicks + 1;
 
     // select what we want to modify
     let buttonDiv = document.getElementById("button-div");
 
-    buttonDiv.innerHTML = newText;
+    buttonDiv.innerHTML = "Number of times button clicked: " + numClicks;
+
 }
