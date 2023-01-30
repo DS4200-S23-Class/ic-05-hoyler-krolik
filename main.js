@@ -1,29 +1,41 @@
-// JS File for Class Demo
+// // JS File for Class Demo
+//
+// // print
+// console.log("hello_world");
+//
+// // variables
+//
+// // constants
+// const myCourse = "DS4200";
+// console.log(myCourse);
+//
+// let season = "Winter";
+// consol.log(season);
+//
+// season = "Spring";
+// consol.log(season);
+//
+// // don't use var
+//
+// let hwDue = true;
+//
+// // functions
+// function tenTimes(num){
+//     let result = num * 10;
+//     return result;
+// }
+//
+// let ans = tenTimes(6);
+// console.log(ans);
 
-// print
-console.log("hello_world");
+// button function
+function buttonClicked(){
+    console.log("Button was clicked!");
 
-// variables
+    let newText = "Button was clicked";
 
-// constants
-const myCourse = "DS4200";
-console.log(myCourse);
+    // select what we want to modify
+    let buttonDiv = document.getElementById("button-div");
 
-let season = "Winter";
-consol.log(season);
-
-season = "Spring";
-consol.log(season);
-
-// don't use var
-
-let hwDue = true;
-
-// functions
-function tenTimes(num){
-    let result = num * 10;
-    return result;
+    buttonDiv.innerHTML = newText;
 }
-
-let ans = tenTimes(6);
-console.log(ans);
