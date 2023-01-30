@@ -18,3 +18,12 @@ consol.log(season);
 // don't use var
 
 let hwDue = true;
+
+// functions
+function tenTimes(num){
+    let result = num * 10;
+    return result;
+}
+
+let ans = tenTimes(6);
+console.log(ans);
